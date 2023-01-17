@@ -1,0 +1,5 @@
+T = int(input())
+input_ = list(map(int, input().split()))
+M = max(input_)
+m = min(input_)
+print(m, M)
