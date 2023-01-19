@@ -1,7 +1,8 @@
-T = int(input())
+import sys
+T = int(sys.stdin.readline())
 company = {}
 for t in range(T):
-    name, being = input().split()
+    name, being = sys.stdin.readline().split()
     if being == 'enter':
         company[name]= being
     elif being == 'leave':
