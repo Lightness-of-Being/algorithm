@@ -1,6 +1,8 @@
+import sys
+input = sys.stdin.readline
 T = int(input())
 for t in range(T):
-    input_ = input()
+    input_ = input().rstrip()
     while True:
         input_2 = input_.replace('()','')
         if input_ == input_2:
@@ -10,4 +12,3 @@ for t in range(T):
         print('YES')
     else:
         print('NO')
-            
