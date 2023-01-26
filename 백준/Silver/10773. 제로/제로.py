@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 T = int(input())
 res_list = []
 for t in range(T):
