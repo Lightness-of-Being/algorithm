@@ -1,3 +1,5 @@
+import sys
+input = sys.stdin.readline
 table = [0]*100
 res = 0
 T = int(input())
