@@ -1,9 +1,10 @@
-n, m = map(int, input().split())
-a, b = [], []
-for i in [a, b]:
-    for j in range(n):
+M, N = map(int, input().split())
+A = []
+B = []
+for i in [A, B]:
+    for j in range(M):
         i.append(list(map(int, input().split())))
-for i in range(n):
-    for j in range(m):
-        a[i][j] += b[i][j]
-    print(*a[i])
+for y in range(M):
+    for x in range(N):
+        A[y][x] += B[y][x]
+    print(*A[y])
