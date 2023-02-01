@@ -1,3 +1,4 @@
-from itertools import combinations as combi
+from math import factorial as fac
 a, b = map(int, input().split())
-print(len(list(combi(range(a), b))))
+res = fac(a)//(fac(b) * fac(a - b))
+print(res)
